@@ -16,8 +16,7 @@ Customer churn is a critical issue in the banking sector. This project proposes 
 The system design consists of two main stages: **Model Construction** and **Evaluation/Interpretation**.
 
 ### 1. Architecture Flow
-![TabNet Architecture](path/to/your/flowchart_tabnet.png)
-*Place your architecture diagram here (e.g., inside an `images` folder)*
+![TabNet Architecture](Customer-Churn-TabNet-SHAP/images/flowchart_tabnet.jpg)
 
 ### 2. Experimental Workflow
 1.  **Data Preprocessing:** Cleaning, Encoding, and Normalization.
@@ -48,7 +47,7 @@ To ensure the results are not due to chance, McNemar's test was conducted:
 ## 🔍 Model Interpretability (SHAP)
 
 ### Global Importance
-![SHAP Summary](path/to/your/shap_summary_plot.png)
+![SHAP Summary](Customer-Churn-TabNet-SHAP/images/shap_summary_plot.png)
 * **Balance:** Customers with lower/zero balances tend to churn.
 * **NumOfProducts:** Using too many (3-4) or too few products impacts retention.
 * **Age:** Older customers show a higher tendency to churn compared to younger ones.
