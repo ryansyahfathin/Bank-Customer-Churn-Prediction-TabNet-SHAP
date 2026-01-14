@@ -27,7 +27,7 @@ The dataset used in this project is obtained from Kaggle. Due to size constraint
 The system design consists of two main stages: **Model Construction** and **Evaluation/Interpretation**.
 
 ### 1. Architecture Flow
-![TabNet Architecture](Customer-Churn-TabNet-SHAP/images/flowchart_tabnet.png)
+![TabNet Architecture](Customer-Churn-TabNet-SHAP/images/flowchart_tabnet.jpg)
 *(Note: Pastikan nama file gambar di folder images sesuai dengan ini)*
 
 ### 2. Experimental Workflow
