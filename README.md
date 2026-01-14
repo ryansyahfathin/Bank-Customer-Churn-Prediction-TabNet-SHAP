@@ -27,7 +27,7 @@ The dataset used in this project is obtained from Kaggle. Due to size constraint
 The system design consists of two main stages: **Model Construction** and **Evaluation/Interpretation**.
 
 ### 1. Architecture Flow
-![TabNet Architecture](images/flowchart_tabnet.png)
+![TabNet Architecture](Customer-Churn-TabNet-SHAP/images/flowchart_tabnet.png)
 *(Note: Pastikan nama file gambar di folder images sesuai dengan ini)*
 
 ### 2. Experimental Workflow
@@ -59,7 +59,7 @@ To ensure the results are not due to chance, McNemar's test was conducted:
 ## 🔍 Model Interpretability (SHAP)
 
 ### Global Importance
-![SHAP Summary](images/shap_summary_plot.png)
+![SHAP Summary](Customer-Churn-TabNet-SHAP/images/shap_summary_plot.png)
 *(Note: Pastikan nama file gambar di folder images sesuai dengan ini)*
 
 * **Balance:** Customers with lower/zero balances tend to churn.
@@ -86,10 +86,6 @@ To ensure the results are not due to chance, McNemar's test was conducted:
 
 4.  **Run the Notebook**
     Open `notebooks/Churn_Prediction_TabNet.ipynb` to see the training and evaluation process.
-
-## 📂 Project Structure
-
-├── images/ # Visualizations for README (Flowcharts, SHAP plots) ├── notebooks/ # Jupyter Notebooks for experiments ├── src/ # (Optional) Source code / scripts ├── requirements.txt # Python dependencies └── README.md # Project documentation
 
 ## 📜 References
 * Arik, S. O., & Pfister, T. (2021). **TabNet: Attentive Interpretable Tabular Learning**. *AAAI*.
